@@ -1,5 +1,5 @@
 {
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.defaultFormatter": "denoland.vscode-deno",
   "editor.codeActionsOnSave": {
     "source.fixAll": "explicit"
   },
@@ -11,5 +11,19 @@
   "markdown.preview.fontFamily": "system-ui, -apple-system, sans-serif",
   "files.associations": {
     "CODEOWNERS": "ini"
+  },
+  "deno.enable": true,
+  "deno.lint": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
   }
 }
