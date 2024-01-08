@@ -26,8 +26,8 @@ Create `.env` file. Set the following variables with the details from the Kinde 
 KINDE_CLIENT_ID=your_kinde_client_id
 KINDE_CLIENT_SECRET=your_kinde_client_secret
 KINDE_AUTH_DOMAIN=https://your_kinde_domain.kinde.com
-KINDE_LOGOUT_REDIRECT_URL=http://localhost:8001
-KINDE_REDIRECT_URL=http://localhost:8001/callback
+KINDE_LOGOUT_REDIRECT_URL=http://localhost:8000
+KINDE_REDIRECT_URL=http://localhost:8000/callback
 APP_KEY=randomly_regenerated_encryption_key
 ```
 
@@ -37,8 +37,8 @@ For example
 KINDE_CLIENT_ID=abcdef1234567890abcdef1234567890
 KINDE_CLIENT_SECRET=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
 KINDE_AUTH_DOMAIN=https://example.kinde.com
-KINDE_LOGOUT_REDIRECT_URL=http://localhost:8001
-KINDE_REDIRECT_URL=http://localhost:8001/callback
+KINDE_LOGOUT_REDIRECT_URL=http://localhost:8000
+KINDE_REDIRECT_URL=http://localhost:8000/callback
 APP_KEY=aAbBcCdDeEfF1234567890_random!!!
 ```
 
@@ -48,15 +48,15 @@ Your user will be redirected to Kinde to authenticate. After they have logged in
 
 You need to specify in Kinde which url you would like your user to be redirected to in order to authenticate your app.
 
-On the App Keys page set `Allowed callback URLs` to <http://localhost:8001/callback>
+On the App Keys page set `Allowed callback URLs` to <http://localhost:8000/callback>
 
 > Important! This is required for your users to successfully log in to your app.
 
-You will also need to set the url they will be redirected to upon logout. Set the `Allowed logout redirect URLs` to <http://localhost:8001>.
+You will also need to set the url they will be redirected to upon logout. Set the `Allowed logout redirect URLs` to <http://localhost:8000>.
 
 ### Start the app
 
-Run `deno task start` and navigate to <http://localhost:8001>.
+Run `deno task start` and navigate to <http://localhost:8000>.
 
 Click on `Sign up` and register your first user for your business!
 
