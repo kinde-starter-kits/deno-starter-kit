@@ -1,1 +1,7 @@
 * @kinde-starter-kits/giants-kinde
+deno.json @kinde-starter-kits/sdk-engineers
+**/deno.json @kinde-starter-kits/sdk-engineers
+deno.jsonc @kinde-starter-kits/sdk-engineers
+**/deno.jsonc @kinde-starter-kits/sdk-engineers
+deno.lock @kinde-starter-kits/sdk-engineers
+**/deno.lock @kinde-starter-kits/sdk-engineers
